@@ -1,0 +1,226 @@
+@import url('https://fonts.cdnfonts.com/css/studebaker-nf');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@500&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #696969;
+}
+
+/* NAVBAR STYLE STARTS */
+.navbar-brand {
+    font-family: 'Studebaker NF', sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    color: #D2691E;
+}
+
+.navbar-nav {
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-item .nav-link {
+    color: white;
+    position: relative;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    left: 0px;
+    background-color: rgb(255, 129, 57);
+    width: 0px;
+    height: 3px;
+    transition: 0.4s ease-in-out;
+}
+
+.nav-item:hover .nav-link::after {
+    width: 100%;
+}
+
+.nav-link:hover {
+    color: rgb(255, 129, 57);
+}
+
+
+
+
+/* NAVBAR STYLE ENDS */
+
+/* HOME STYLE STARTS */
+.home-content {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-home {
+    width: 100%;
+    border: 5px solid #D2691E;
+    border-radius: 5px;
+    box-shadow: 5px 5px #fff;
+    margin-top: 150px;
+}
+
+.home-heading {
+    font-family: 'Domine', serif;
+}
+
+.b-design {
+    font-family: 'Studebaker NF', sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    color: #D2691E;
+}
+
+/* HOME STYLE ENDS */
+
+/* ABOUT STYLE STARTS */
+.img-about {
+    height: 420px;
+    width: 45%;
+    position: absolute;
+    top: -20px;
+    right: 40px;
+}
+
+.container-about {
+    width: 100%;
+    height: 80vh;
+}
+
+.about-us-content {
+    width: 100%;
+    height: 350px;
+    background-color: rgb(54, 54, 54);
+    margin-top: 200px;
+    position: relative;
+}
+
+.content-about {
+    padding: 10px 38px;
+}
+
+.heading {
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: rgb(255, 129, 57);
+    margin: 10px 0px;
+    margin-bottom: 34px;
+    position: relative;
+}
+
+.heading::after {
+    content: '';
+    position: absolute;
+    left: 0px;
+    bottom: -8px;
+    background-color: rgb(255, 129, 57);
+    width: 46px;
+    height: 2px;
+
+}
+
+.parag-about {
+    font-size: 13px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.695);
+    line-height: 21px;
+    margin: 25px 0px;
+}
+
+.link-about {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1px solid rgba(255, 129, 57, 0.5);
+    color: rgb(255, 129, 57);
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 8px 22px;
+    position: relative;
+    z-index: 22;
+}
+
+.link-about:hover {
+    color: white;
+}
+
+.span-about {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgb(255, 129, 57);
+    width: 0%;
+    height: 100%;
+    z-index: -1;
+    transition: 0.4s ease-in;
+}
+
+.link-about:hover .span-about {
+    width: 100%;
+}
+
+.fa-arrow-right {
+    color: rgb(255, 129, 57);
+    font-size: 11px;
+    margin-left: 5px;
+}
+
+.fa-arrow-right:hover {
+    color: white;
+}
+
+/* ABOUT STYLE ENDS */
+
+/* PRODUCTS STYLE STARTS */
+.btn-one {
+    background-color: rgb(255, 129, 57);
+    color: white;
+    font-weight: 700;
+    border-radius: 30px;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.btn-one:hover {
+    background-color: rgb(234, 105, 31);
+    transition: 0.5s;
+}
+
+.card:hover {
+    box-shadow: 12px 15px 23px 3px rgba(0,0,0,0.66);
+    -webkit-box-shadow: 12px 15px 23px 3px rgba(0,0,0,0.66);
+    -moz-box-shadow: 12px 15px 23px 3px rgba(0,0,0,0.66);
+    transition: 0.5s;
+}
+
+/* PRODUCTS STYLE ENDS */
+
+/* CONTACT STYLE STARTS */
+.contact-form {
+    margin-top: 80px;
+}
+
+.form-origin {
+    width: 100%;
+    height: 480px;
+    background-color: rgb(42, 41, 41);
+    padding: 50px 30px;
+    border-radius: 8px;
+}
+
+
+/* CONTACT STYLE STARTS */
+
+/* MEDIA QUERIES */
