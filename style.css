@@ -377,7 +377,7 @@ p {
     }
     
     .about-section {
-        margin-top: 300px;
+        margin-top: 200px;
     }
 
     .about-us-content {
@@ -394,6 +394,7 @@ p {
 
     .form-origin {
         height: 550px;
+        margin-top: 200px;
     }
 
     .grow-section {
@@ -419,9 +420,6 @@ p {
         margin-left: 110px;
     }
 
-    .navbar-toggler-icon {
-        margin-left: -100px;
-    }
 }
 
 /* for tablets */
@@ -443,7 +441,7 @@ p {
     }
     
     .about-section {
-        margin-top: 300px;
+        margin-top: 400px;
     }
 
     .about-us-content {
